@@ -1,0 +1,36 @@
+create database employee;
+Query OK, 1 row affected (0.16 sec)
+
+mysql> use employee;
+Database changed
+mysql> CREATE TABLE H1(DNO INTEGER PRIMARY KEY,DNAME VARCHAR(30));
+Query OK, 0 rows affected (0.14 sec)
+
+mysql> CREATE TABLE H2(ENO INTEGER PRIMARY KEY,ENAME VARCHAR(30),DNO INTEGER,SALARY VARCHAR(30));
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> INSERT INTO H1 VALUES(101,'software Development');
+Query OK, 1 row affected (0.13 sec)
+
+mysql> INSERT INTO H1 VALUES(102,'manualTesting');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> INSERT INTO H1 VALUES(103,'automationTesting');
+Query OK, 1 row affected (0.04 sec)
+
+mysql> INSERT INTO H1 VALUES(104,'analytics');
+Query OK, 1 row affected (0.08 sec)
+
+mysql> INSERT INTO H2 VALUES(001,'mike',102,'$15000);
+    '> ^C
+mysql> INSERT INTO H2 VALUES(001,'mike',102,'$15000');
+Query OK, 1 row affected (0.11 sec)
+
+mysql> INSERT INTO H2 VALUES(002,'john',101,'$20000');
+Query OK, 1 row affected (0.07 sec)
+
+mysql> INSERT INTO H2 VALUES(003,'ryan',104,'$16000');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> INSERT INTO H2 VALUES(004,'rebecca',103,'$18000');
+Query OK, 1 row affected (0.01 sec)
